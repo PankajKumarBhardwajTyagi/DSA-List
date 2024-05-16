@@ -1,0 +1,96 @@
+Data Structure?
+	* Data Management
+	* Organizing the Data
+	* Storing the Data
+It's a Systematic Way of Organizing & Accessing the Data
+
+Algorithm?
+	* Defined Steps for Perform a Particular Task
+	* Operations like CRUD
+Is a Step-by-Step Procedure for Performing Some Task "in a Finite Amount of Time"
+
+Array
+LinkedList - Singly, Doubly, Circular
+Equivalence Testing
+Cloning DS
+Stack - Array, LinkedList
+Queues - Array, LinkedList, Circular, Deque [Double Ended Queues]
+List - Dynamic Array, ArrayList, PositionalList [Array, SinglyList, DoublyList], Iterator
+Maps - Simple Map, Sorted Map, Hash Map, Hash Table, Sets
+
+"Good" - Goodness of a DS = Running Time & Memory Management
+* Input Data
+* Hardware Environment
+* Software Environment
+
+Fundamental Behavior
+1. Access
+2. Insert / Update
+3. Delete
+4. Search
+5. Sort
+
+Array vs List: Direct Access vs Sequential Access
+Array allows Both
+List only Sequential
+
+SinglyLinkedList: Adding & Removing Elements is much easier than Array
+DoublyLinkedList: Traversing Forward as well as Backward in any List
+
+Singly vs Doubly Linked List
+* Doubly Linked List requires more Space per Node because it maintains a Pointer to the Previous & Next Nodes
+* Adding in SinglyLinkedList is less work than DoublyLinkedList
+* Removing is effecient in DoublyLinkedList
+
+Circular Linked List: The next pointer of the last node points to the first node
+
+Stacks: LIFO: Array or LinkedList (3 + 5 * (5 / 2))
+push()  push a new element to the top
+pop() 	return & remove the element from the top
+peek() 	return the element from the top without removing
+
+Stacks vs Arrays vs LinkedLists
+* Working with Stacks is Simpler tham Arrays & LinkedList coz there is less work you can do with Stacks
+
+Queues: FIFO: Synchronized Thread
+add()
+remove()
+peek()
+
+*** Priority Queue
+
+Deque: It's a Stack & a Queue at the same time: Add or Remove from Start & End
+
+Hashing Technique: Security, Cryptography, Graphics, Audio
+Hashing vs Encryption
+Plain Text ----> Encryption -----> Encrypted Text -----> Decryption -----> Plain Text
+Plain Text ----> Hash Function -----> Hashed Text
+* Hash Function is not Reversible
+
+Two Objects are same: hash value is same
+Two Objects are different, but the values of both Object Members are same: hash value is same: Hashing Collision
+
+Hash Tables: implements Associative Arrays, mapping key to values pair
+Hash Tables vs Arrays vs LinkedList
+* Hash Tables aare Faster than Arrays & LinkedList
+*** Searching, Retreiving, Inserting & Deleting
+
+keys ---> hash function ----> store the hash along with the data in the bucket
+dilip ---> hash function ---->  11020, 9480338043
+kiran ---> hash function ---->  12301, 9876543210
+
+Sets: Collection with no Repeated Values: Unordered
+Fast Lookup
+
+Tree: Branches: Non-linear DS --> Relationship: Hierarchical
+
+                              Reliance
+              Electronics                 HouseAppliances      
+            TV   MusicSystem            Kitchen    Washing    
+            
+Sorting: Arranging Elements in a Specific Order
+
+Decide on the DS:
+* How much Data you have?
+* How often does the Data Change?
+* Do you need Sorting? Access will Faster
